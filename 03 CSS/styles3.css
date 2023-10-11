@@ -1,0 +1,43 @@
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em; 
+    margin: 0.5em; 
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    min-height: 50px;
+    border-radius: 25%; 
+    background-color: #fabb00; 
+    justify-content: center;
+    color: red; 
+}
+
+
+.box:nth-child(1) {
+    flex: 2; 
+}
+
+
+.box:nth-child(2), .box:nth-child(3) {
+    flex: 1;
+
+}
+
+
+
+
+.row {
+    flex-basis: 100%; 
+    display: flex;
+    gap: 0.5em;
+}
+
+
+.row .box {
+    flex: 1; 
+}

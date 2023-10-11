@@ -1,0 +1,19 @@
+
+.content {
+    display: flex;
+    flex-wrap: wrap; /*flex-wrap pomocou flex-wrap sa elementy budu zarovnavat pod seba do riadkov v pripade nedostatku miesta*/
+    justify-content: center; /* zarovna content horizontalne na stred*/
+    gap: 2%; /* nastavi medzery*/ 
+}
+
+.element {
+     
+    min-width: 30%;  /* definuje minimalnu sirku elementu*/
+    background-color:#fabb00;
+    color: red; 
+    padding: 10px; 
+    margin-bottom: 2%; 
+    text-align: center; 
+    font-size: 18px; 
+}
+

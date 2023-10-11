@@ -1,0 +1,12 @@
+
+
+.content {
+    width: 100vw;  /* nastavi velkost */
+    height: 100vh;
+    display: flex; /* pouzijeme flex pre responsivny dizajn*/
+    justify-content: center; /* zarovname content horizontalne*/
+    align-items: center; /* zarovname content vertikalne*/
+    background-color: #fabb00;
+    color: red;
+}
+

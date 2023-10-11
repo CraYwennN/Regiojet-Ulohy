@@ -1,4 +1,4 @@
-const starobrnoMedium: Pivo = {
+const starobrnoMedium: TPivo = {
   name: 'Medium',
   volume: 0.5,
   alc: 4.7,
@@ -19,7 +19,7 @@ const starobrnoMedium: Pivo = {
   }
 };
 
-type Pivo = {
+type TPivo = {
   name: string;
   volume: number;
   alc: number;

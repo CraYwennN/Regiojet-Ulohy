@@ -25,6 +25,6 @@ type TPivo = {
   alc: number;
   drunkedMe: (pieces: number) => boolean;
   onStock: boolean;
-  ingredients:{[key: string]:unknown};
+  ingredients:Record<string,string | number>;
   iGonnaPay: () => boolean | undefined;
 }

@@ -1,5 +1,5 @@
 class Person {
-    constructor(jmeno, vek) {
+  constructor(jmeno, vek) {
       this.jmeno = jmeno;
       this.vek = vek;
     }
